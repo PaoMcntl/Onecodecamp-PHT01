@@ -1,0 +1,30 @@
+/* Color */
+.color-example{
+    color: red;
+    background-color: aqua;
+}
+
+.background-exampleP{
+
+background-color: #ffaa00;
+color: rgb(171, 0, 202);
+}
+
+.background-position-example{
+    background-image: url("https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.jpg?b=1&s=612x612&w=0&k=20&c=--I6QisPR7yGmgujOI2co8U3FIK5tBv6xAjMup67ghc=");
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.opacity-example{
+    background-color: rgba(255, 0, 0 ,0.1);
+}
+
+.img-name{
+    height: 200px;
+    width: 200px;
+}

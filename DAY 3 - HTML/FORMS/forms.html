@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h2>HTML FORMS OCC PHT01</h2>
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" name="fname" id="fname" required />
+      <br />
+      <!--id - unique identity-->
+      <!--textbox-->
+
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" required />
+      <!--password-->
+      <br />
+
+      <label for="email"> Email Address:</label>
+      <input type="email" name="email" id="email" placeholder="Enter your Email Address" />
+      <br />
+
+      <label for="phone number">Phone Number:</label>
+      <input type="tel" name="phone number" id="phone number" pattern="\+\(\d{2}\) \d{3}-\d{3}-\d{4}" placeholder="+(12) 345-678-9000">
+      <br />
+      <!--pattern="\+\(\d{2}\) \d{3}-\d{3}-\d{4}" placeholder="+(12) 345-678-9000. Standard number pattern-->
+      <!--1. number
+            2. tel [additional attribute. Hypen]-->
+      
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" rows="5" cols="30"></textarea>
+      <br>
+      <!--textarea message-->
+
+      <label for="operating system">Operating System</label>
+      <select name="operating system" id="operating system">
+        <option value="none">----</option>
+        <option value="windows">Windows</option>
+        <option value="linux">Linux</option>
+        <option value="macos">MacOS</option>
+        <option value="solaris">Solaris</option>
+        <option value="freebsd">FreeBSD</option>
+      </select>
+      <br>
+      <!--Option, choices, multiple choice. Drop Down option-->
+      <h3>Gender</h3>
+      
+      <input type="radio" name="gender" id="gender1" value="male">
+      <label for="male">Male</label>
+      
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+
+      <input type="radio" name="gender" id="female" value="lgbtq">
+      <label for="lgbtq">LGBTQ</label>
+      <br>
+      <!--Radio, circle, options-->
+    
+      <h3>Sex</h3>
+      <input type="checkbox" name="sex" id="man">
+      <label for="man">Man</label>
+
+      <input type="checkbox" name="sex" id="woman">
+      <label for="Woman">Woman</label>
+      <br>
+      <!--checkbox-->
+    
+      <button type="submit">Submit Form</button>
+      <!--button or submit form-->
+  <!--Forms-->
+    </form>
+  </body>
+</html>

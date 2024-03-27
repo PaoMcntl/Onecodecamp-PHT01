@@ -1,0 +1,57 @@
+/* This is how you write a comment in CSS */
+
+
+/* Universal Selector */
+*{
+    color: violet;
+}
+
+/* Elenent Selector */
+
+p {
+    color:brown;
+
+}
+
+p {
+color:red;
+}
+
+/* Class Selector */
+.class-example  {
+    color: fuchsia;
+}
+
+/* id Selector */
+#id-example {
+    color: tomato;
+}
+
+/* Attribute Selector */
+
+/* Targetting an anchor tag with specific href value */
+a[href]{
+    color: green;
+}
+
+a[href="https://www.google.com"]{
+   color: pink;
+}
+
+/* Grouping Selector */
+h1,h2,h3 {
+    color: lightblue;
+    font-size: 30px;
+    background-color: cadetblue;
+}
+
+.heading1,#heading2,h3{
+background-color: #FF8333;
+color: #33ECFF;
+}
+
+/* Psuedo-class Selector */
+
+.heading1:hover {
+    background-color: rgba(255, 0, 255, 0.356);
+}

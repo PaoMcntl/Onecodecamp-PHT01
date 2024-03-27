@@ -1,0 +1,56 @@
+.html{
+    font-size: 16px;
+}
+
+/* auto */
+/*.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: 100px 150px 150px;
+}*/
+
+/* using px */
+/*.gridContainer{
+    display: grid;
+    grid-template-columns: 300px 250px 100px 100px;
+    grid-row: auto;
+}/*
+
+/* using percentage */
+/*.gridContainer{
+    display: grid;
+    grid-template-columns: 50% 20% 15% 15%;
+    grid-row: auto;
+}*/
+
+/* using franctions */
+/*.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto;
+}*/
+
+/* using fractions */
+/*.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+    gap: 2rem;
+    font-size: 18px;
+}*/
+/* 
+16px
+1rem
+1em
+ */
+
+ /*  */
+ .gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+}
+
+.gridItem2{
+    grid-area: 2/1/4/3;
+}
